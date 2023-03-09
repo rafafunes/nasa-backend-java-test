@@ -6,11 +6,11 @@ Este test es para poder aplicar a la posición de JAVA Developer. Una vez acceda
 Herramientas a instalar 
 > Instalar Java versión 11 u Open JDK Versión 11.
  
-> Instalar MySQL como servidor de DB.
+> Instalar MySQL como servidor de DB. (Nombre de base de datos: api_nasa, tabla: tb_images)
 
 > Instalar PGADMIN o tu cliente DB favorito.
  
-> Instalar POSTMAN como cliente API  o tu cliente favorito.
+> Instalar POSTMAN como cliente API  o tu cliente favorito. (URL para Tarea 3: http://localhost:8090/get-data-api-nasa)
 
 > Instalar Spring Tool Suit 4 (recomendado) o tu IDE favorito.
  
