@@ -6,7 +6,7 @@ Este test es para poder aplicar a la posición de JAVA Developer. Una vez acceda
 Herramientas a instalar 
 > Instalar Java versión 11 u Open JDK Versión 11.
  
-> Instalar Postgresql como servidor de DB.
+> Instalar MySQL como servidor de DB.
 
 > Instalar PGADMIN o tu cliente DB favorito.
  
