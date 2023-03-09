@@ -1,5 +1,6 @@
 package com.nasa.prueba.aspirante.dominio.entities;
 
+import java.util.Comparator;
 import java.util.Date;
 
 import javax.persistence.Column;
@@ -13,7 +14,7 @@ import javax.persistence.TemporalType;
 
 @Entity
 @Table(name = "tb_images")
-public class PruebaEntity {
+public class PruebaEntity implements Comparable<PruebaEntity> {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "id_image", nullable = false)
@@ -83,4 +84,9 @@ public class PruebaEntity {
 		this.dateCreate = dateCreate;
 	}
 
+	@Override
+	public int compareTo(PruebaEntity toCompare) {
+		return Comparator.comparing(PruebaEntity::getIdImage).compare(this, toCompare);
+	}
+	
 }

@@ -1,5 +1,6 @@
 package com.nasa.prueba.aspirante.infraestructura.restcontroller;
 
+import java.util.Collections;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,6 +22,7 @@ public class PruebaRestController {
 	@GetMapping(value = "/get-data-api-nasa", produces = MediaType.APPLICATION_JSON_VALUE)
 	public ResponseEntity<?> getDataDb() {
 		List<PruebaEntity> result = pruebaService.findAllData();
+		Collections.reverse(result);
 		return new ResponseEntity<>(result, HttpStatus.OK);
 	}
 }
