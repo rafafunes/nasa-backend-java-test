@@ -10,7 +10,7 @@ Herramientas a instalar
 
 > Instalar PGADMIN o tu cliente DB favorito.
  
-> Instalar POSTMAN como cliente API  o tu cliente favorito. (URL para Tarea 3: http://localhost:8080/get-data-api-nasa) o elegir su propio puerto
+> Instalar POSTMAN como cliente API  o tu cliente favorito. (URL para Tarea 3: Agregar request de tipo GET y agregar la siguiente url: http://localhost:8080/get-data-api-nasa) o elegir su propio puerto
 
 > Instalar Spring Tool Suit 4 (recomendado) o tu IDE favorito.
  
